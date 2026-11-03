@@ -1,0 +1,65 @@
+# 種目データ
+#   part:   chest / back / legs / shoulders / arms / abs
+#   places: home(自宅・器具なし) / gym(ジム)
+#   unit:   省略すると「回」。時間で行う種目は「秒」を指定する
+exercises:
+  # --- 胸 ---
+  - { name: 腕立て伏せ, part: chest, places: [home, gym], sets: 3, reps: 15 }
+  - { name: ワイドプッシュアップ, part: chest, places: [home, gym], sets: 3, reps: 12 }
+  - { name: デクラインプッシュアップ, part: chest, places: [home], sets: 3, reps: 12 }
+  - { name: インクラインプッシュアップ, part: chest, places: [home], sets: 3, reps: 15 }
+  - { name: ベンチプレス, part: chest, places: [gym], sets: 3, reps: 8 }
+  - { name: インクラインダンベルプレス, part: chest, places: [gym], sets: 3, reps: 10 }
+  - { name: ダンベルフライ, part: chest, places: [gym], sets: 3, reps: 12 }
+  - { name: チェストプレス, part: chest, places: [gym], sets: 3, reps: 10 }
+
+  # --- 背中 ---
+  - { name: バックエクステンション, part: back, places: [home, gym], sets: 3, reps: 15 }
+  - { name: スーパーマン, part: back, places: [home], sets: 3, reps: 15 }
+  - { name: リバーススノーエンジェル, part: back, places: [home], sets: 3, reps: 12 }
+  - { name: 懸垂, part: back, places: [gym], sets: 3, reps: 8 }
+  - { name: ラットプルダウン, part: back, places: [gym], sets: 3, reps: 10 }
+  - { name: ベントオーバーロウ, part: back, places: [gym], sets: 3, reps: 10 }
+  - { name: シーテッドロウ, part: back, places: [gym], sets: 3, reps: 10 }
+  - { name: デッドリフト, part: back, places: [gym], sets: 3, reps: 5 }
+
+  # --- 脚 ---
+  - { name: スクワット, part: legs, places: [home, gym], sets: 3, reps: 15 }
+  - { name: ブルガリアンスクワット, part: legs, places: [home, gym], sets: 3, reps: 10 }
+  - { name: ランジ, part: legs, places: [home, gym], sets: 3, reps: 12 }
+  - { name: カーフレイズ, part: legs, places: [home, gym], sets: 3, reps: 20 }
+  - { name: ヒップリフト, part: legs, places: [home, gym], sets: 3, reps: 15 }
+  - { name: ワイドスクワット, part: legs, places: [home], sets: 3, reps: 15 }
+  - { name: バーベルスクワット, part: legs, places: [gym], sets: 3, reps: 8 }
+  - { name: レッグプレス, part: legs, places: [gym], sets: 3, reps: 12 }
+  - { name: レッグカール, part: legs, places: [gym], sets: 3, reps: 12 }
+
+  # --- 肩 ---
+  - { name: パイクプッシュアップ, part: shoulders, places: [home], sets: 3, reps: 10 }
+  - { name: ショルダータップ, part: shoulders, places: [home], sets: 3, reps: 20 }
+  - { name: プランクアップダウン, part: shoulders, places: [home, gym], sets: 3, reps: 12 }
+  - { name: アームサークル, part: shoulders, places: [home], sets: 3, reps: 20 }
+  - { name: ショルダープレス, part: shoulders, places: [gym], sets: 3, reps: 10 }
+  - { name: サイドレイズ, part: shoulders, places: [gym], sets: 3, reps: 12 }
+  - { name: フロントレイズ, part: shoulders, places: [gym], sets: 3, reps: 12 }
+  - { name: リアレイズ, part: shoulders, places: [gym], sets: 3, reps: 12 }
+
+  # --- 腕 ---
+  - { name: ナロープッシュアップ, part: arms, places: [home, gym], sets: 3, reps: 12 }
+  - { name: ダイヤモンドプッシュアップ, part: arms, places: [home, gym], sets: 3, reps: 10 }
+  - { name: ベンチディップス, part: arms, places: [home, gym], sets: 3, reps: 12 }
+  - { name: アームカール, part: arms, places: [gym], sets: 3, reps: 12 }
+  - { name: ハンマーカール, part: arms, places: [gym], sets: 3, reps: 12 }
+  - { name: トライセプスエクステンション, part: arms, places: [gym], sets: 3, reps: 12 }
+  - { name: ケーブルプレスダウン, part: arms, places: [gym], sets: 3, reps: 12 }
+
+  # --- 腹筋 ---
+  - { name: クランチ, part: abs, places: [home, gym], sets: 3, reps: 20 }
+  - { name: レッグレイズ, part: abs, places: [home, gym], sets: 3, reps: 15 }
+  - { name: バイシクルクランチ, part: abs, places: [home, gym], sets: 3, reps: 20 }
+  - { name: プランク, part: abs, places: [home, gym], sets: 3, reps: 45, unit: 秒 }
+  - { name: サイドプランク, part: abs, places: [home, gym], sets: 3, reps: 30, unit: 秒 }
+  - { name: マウンテンクライマー, part: abs, places: [home, gym], sets: 3, reps: 30, unit: 秒 }
+  - { name: アブローラー, part: abs, places: [gym], sets: 3, reps: 10 }
+  - { name: ハンギングレッグレイズ, part: abs, places: [gym], sets: 3, reps: 10 }
+  - { name: ケーブルクランチ, part: abs, places: [gym], sets: 3, reps: 15 }
